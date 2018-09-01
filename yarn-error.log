@@ -1,0 +1,39 @@
+Arguments: 
+  /usr/local/soft/nvm/versions/node/v8.11.3/bin/node /usr/local/soft/nvm/versions/node/v8.11.3/bin/yarn add http
+
+PATH: 
+  /home/edge/.yarn/bin:/home/edge/.config/yarn/global/node_modules/.bin:/home/edge/bin:/home/edge/.local/bin:/home/edge/.yarn/bin:/home/edge/.config/yarn/global/node_modules/.bin:/usr/local/soft/nvm/versions/node/v8.11.3/bin:/home/edge/bin:/home/edge/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/media/win/Users/willi_000/Documents/store/home/bin:/usr/local/soft/jdk-10.0.1/bin:/usr/local/soft/android-sdk/tools:/usr/local/soft/android-sdk/platform-tools:/home/edge/.rvm/bin:/usr/local/soft/go/bin:/media/win/Users/willi_000/Documents/store/expertise/golang/gows/bin:/media/win/Users/willi_000/Documents/store/home/bin:/usr/local/soft/jdk-10.0.1/bin:/usr/local/soft/android-sdk/tools:/usr/local/soft/android-sdk/platform-tools:/home/edge/.rvm/bin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  8.11.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443
+      at errnoException (dns.js:50:10)
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+
+npm manifest: 
+  {
+    "name": "simple-serve",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node index.js"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
